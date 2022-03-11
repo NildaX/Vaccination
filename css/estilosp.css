@@ -1,13 +1,27 @@
+.contenedorambos {
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 30px;
+  color: #0c67dd;
+}
+.contenedorizquierda {
+  padding-left: 200px;
+  line-height: 30px;
+  color: #0c67dd;
+}
+
 .titulo1 {
   font-size: 80px;
-  padding: 100px 200px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   line-height: 30px;
   color: #0c67dd;
 }
 
 .titulo2 {
   font-size: 30px;
-  padding: 10px 200px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   line-height: 30px;
   color: #617083;
 }
@@ -21,8 +35,7 @@
 .titulo4 {
   font-size: 25px;
   padding-top:100px;
-  padding-bottom:20px;
-  padding-left: 200px;
+  padding-bottom:20px; 
   line-height: 30px;
   color: #0c67dd;
 }
@@ -50,7 +63,7 @@
   font-size: 25px;
   padding-top:5px;
   padding-bottom:40px;
-  padding-left: 200px;
+  
   line-height: 30px;
   color: #0c67dd;
 }
@@ -60,7 +73,29 @@
   line-height: 30px;
   color: #617083;
 }
-
+.titulo10 {
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  line-height: 30px;
+  color: #0c67dd;
+}
+.propio{
+  font-size: 30px;
+  color: #0c67dd;
+  padding-right: 10px;
+}
+.propio2{
+  font-size: 30px;
+  color: #617083;
+  padding-right: 10px;
+}
+.sombreado{
+  border-top-width: 10px;
+  border-right-width: 1em;
+  border-bottom-width: thick;
+  border-left-width: thin;
+}
 .boton{
   font-size:25px;
   font-weight:bold;
@@ -69,6 +104,7 @@
   width:200px;
   height:80px;
   border-radius: 15px;
+
  }
 
  .centrar{
@@ -101,6 +137,7 @@
   float: left;
   color: #617083;
   text-align: center;
+  margin:auto;
   vertical-align: middle;
   line-height: 30px;
   padding: 14px 16px;
@@ -108,16 +145,22 @@
   font-size: 17px;
   border-radius: 15px;
   font-weight: bold;
+  height: 100px;
+  
+  
 }
 
 .topnav a.resaltado{
   float: left;
   color: #0c67dd;
   text-align: center;
+  margin:auto;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
+  height: 100px;
+  
 
 }
 

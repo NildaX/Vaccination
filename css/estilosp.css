@@ -21,7 +21,7 @@
 .titulo4 {
   font-size: 25px;
   padding-top:100px;
-  padding-bottom:40px;
+  padding-bottom:20px;
   padding-left: 200px;
   line-height: 30px;
   color: #0c67dd;
@@ -45,6 +45,20 @@
   font-size: 25px;
   color: #0c67dd;
   padding: 10px 10px;
+}
+.titulo8 {
+  font-size: 25px;
+  padding-top:5px;
+  padding-bottom:40px;
+  padding-left: 200px;
+  line-height: 30px;
+  color: #0c67dd;
+}
+.titulo9 {
+  font-size: 20px;
+  padding: 10px 10px;
+  line-height: 30px;
+  color: #617083;
 }
 
 .boton{
@@ -72,6 +86,10 @@
   filter: none;
   -webkit-filter: grayscale(0%);
   }
+
+.marcom{
+  padding-left: 10px;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgb(247, 245, 245);
